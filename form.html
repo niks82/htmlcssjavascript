@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+<label for="FirstName">FirstName:</label>
+<input type="text" name="firstname" minlength="5" maxlength="10" pattern="nikki" id="fn" placeholder="Please enter your firstname" required><br>
+<label for="LastName">LastName:</label>
+<input type="text" name="lastname" id="ln" placeholder="Please enter your lastname"><br>
+<label for="Password">Password:</label>
+<input type="password" name="password" id="pwd" placeholder="Please enter your password" required><br>
+<label for="Email">Email Id:</label>
+<input type="email" name="email" id="email" placeholder="Please enter your email" required><br>
+<label for="Number">Number:</label>
+<input type="number" name="number" id="num" min="0" max="10" placeholder="Please enter your number" required><br>
+<label for="Gender">Gender:</label>
+Male<input type="radio" name="gender" value="Male" id="gender" required>
+Female<input type="radio" name="gender" value="Female" id="gender" required><br>
+<label for="Skills">Skills:</label>
+Java<input type="checkbox" name="Skills" value="Java" id="java">
+SQL<input type="checkbox" name="Skills" value="SQL" id="sql">
+Python<input type="checkbox" name="Skills" value="Python" id="sql">
+J2EE<input type="checkbox" name="Skills" value="J2EE" id="j2ee"><br>
+Select Language: <select name="Language" id="lang" multiple>
+        <option value="Select Language">Select Language</option>
+    <option value="english">English</option>
+    <option value="hindi">Hindi</option>
+   <option value="kannada"> Kannada</option>
+    <option value="bengali">  Bengali</option>
+</select><br>
+Mobile Number: <input type="tel" name="phno" id="phno" placeholder="Please enter your phonenumber" required><br>
+Address: <textarea name="Address" id="address" cols="20" rows="5"></textarea><br>
+<input type="file" name="Browse"><br>
+BirthDate: <input type="date" name="date"><br>
+<input type="datetime-local"><br>
+<input type="time"><br>
+<input type="month" name="" id=""><br>
+<input type="week" name="" id=""><br>
+<input type="range" name="" id="" min="1" max="10"><br>
+<input type="color" name="" id=""><br>
+<input type="search" name="" id=""><br>
+<input type="url" name="" id=""><br>
+<input type="reset" value="Reset"><br>
+<input type="submit" value="submit">
+    </form>
+</body>
+</html>
